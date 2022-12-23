@@ -1,0 +1,29 @@
+*::before,
+*,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+img,
+picture,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
+
+html,
+body,
+#__nuxt {
+  height: 100%;
+  font-family: sans-serif;
+
+  background: #dee3e6;
+}
